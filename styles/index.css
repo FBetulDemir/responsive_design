@@ -5,20 +5,52 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
+header .logo {
+  font-family: "Aldrich", sans-serif;
+  font-size: 24px;
 }
-header ul a {
-  text-decoration: none;
+
+.nav-links {
+  font-family: "Baloo 2", sans-serif;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.nav-links span a:link {
+  text-decoration: none;
+  color: #242635;
+}
+
+main {
+  text-align: center;
+}
+main .title {
+  font-size: 90px;
+  font-weight: 500;
+}
+main .main-info {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+@media screen and (max-with: 900px) {
+  .title {
+    font-size: 72px;
+  }
+  .main-info {
+    font-size: 12px;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto 10%;
+  height: 100vh;
 }

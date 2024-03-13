@@ -1,8 +1,19 @@
-body{
-    font-family: "Poppins", sans-serif;
-}
 main{
-    display: flex;
-    justify-content: center;
-    margin: 5%;
+    text-align: center;
+   .title{
+        font-size: 90px;
+        font-weight: 500;
+   }
+   .main-info{
+        font-size: 22px;
+        font-weight: 200;
+   }
+}
+@media screen and (min-with: 900px) {
+    .title{
+        font-size: 72px;
+    }
+    .main-info{
+        font-size: 12px;
+    }
 }

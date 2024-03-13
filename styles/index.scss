@@ -1,3 +1,9 @@
-@import 'header';
 @import 'fonts';
+@import 'header';
 @import 'main';
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: auto 10%;
+    height: 100vh;
+}
